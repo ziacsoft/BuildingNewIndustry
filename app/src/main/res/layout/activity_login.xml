@@ -38,6 +38,7 @@
             </LinearLayout>
 
 
+
             <TextView
                 android:id="@+id/signin"
                 android:layout_width="match_parent"
@@ -47,6 +48,15 @@
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1" />
+
 
             <EditText
                 android:id="@+id/email2"
