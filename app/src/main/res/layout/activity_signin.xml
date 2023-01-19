@@ -161,7 +161,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="2dp"
                 android:text="Privacy policy"
-                android:textColor="#116E65" />
+                android:textColor="#128F83" />
 
             <View
                 android:layout_width="fill_parent"
@@ -191,23 +191,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
                 android:text="Create acount"
-                android:textColor="@color/black" />
+                android:textColor="#128F83" />
 
 
         </LinearLayout>
 
-<!--            <Button-->
-<!--                android:id="@+id/createaccount"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="50dp"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:layout_marginBottom="5dp"-->
-<!--                android:background="@drawable/btnbg"-->
-<!--                android:text="Create Account"-->
-<!--                android:textAllCaps="false"-->
-<!--                android:textColor="@color/white"-->
-<!--                android:textSize="20sp" />-->
 
             <ProgressBar
                 android:id="@+id/idLoadingPB"

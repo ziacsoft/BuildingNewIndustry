@@ -146,21 +146,19 @@
                 android:textColor="#0E0D0D"
                 android:textColorHint="#807E7E" />
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/city"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:drawablePadding="5dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/edittext_bg"
                 android:drawableLeft="@drawable/country_icon"
                 android:hint="Select city"
-                android:inputType="textEmailAddress"
                 android:padding="10dp"
                 android:textColor="#0E0D0D"
                 android:textColorHint="#807E7E" />
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/state"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -168,13 +166,13 @@
                 android:background="@drawable/edittext_bg"
                 android:drawableLeft="@drawable/state"
                 android:drawablePadding="5dp"
-                android:hint="State"
+                android:hint="Select state"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
                 android:textColor="#0E0D0D"
                 android:textColorHint="#807E7E" />
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/country"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -182,11 +180,12 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/edittext_bg"
                 android:drawableLeft="@drawable/country_icon"
-                android:hint="Country"
+                android:hint="Select your Country"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
                 android:textColor="#0E0D0D"
                 android:textColorHint="#807E7E" />
+            
 
             <EditText
                 android:id="@+id/zip"
@@ -274,17 +273,6 @@
                 android:textSize="20sp"
                 android:text="Cancel" />
 
-
-            <TextView
-                android:id="@+id/cancel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:textColor="#F44336"
-                android:textSize="20sp"
-                android:text="Cancel" />
 
 
 
